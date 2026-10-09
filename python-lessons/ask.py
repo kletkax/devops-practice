@@ -1,0 +1,7 @@
+server = input("Server name : ")
+print(f"Server: {server}")
+port = int(input("Port : "))
+print(f"Port: {port}")
+print(f"Type of port: {type(port)}")
+print(f"Next port: {port + 1}")
+print(f"Checking.. Address:{server}:{port}")

@@ -1,0 +1,4 @@
+disk_used = int(input("Disk used %: "))
+if disk_used > 90:
+    print("ALERT: disk almost full!")
+print("check done!")
