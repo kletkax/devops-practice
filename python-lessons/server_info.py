@@ -1,3 +1,3 @@
-print("server:codespace")
-print("Python:3.12")
-print("Status:Ok")
+cpu = "85"
+int(cpu)
+print(cpu + "5")

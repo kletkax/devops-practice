@@ -5,3 +5,5 @@ is_running = True
 
 print(type("port"))
 print (type(port_text), type(is_running), type(cpu_load), type(is_running))
+python3 -m venv .venv
+source .venv/bin/activate
