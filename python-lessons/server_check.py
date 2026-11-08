@@ -6,8 +6,8 @@ servers = [
 ]
 for server in servers:
     if server["cpu"] >= 90:
-        print(f"[CRITICAL] ['name']: CPU ['cpu']%")
+        print(f"[CRITICAL] {server['name']}: CPU {server['cpu']}%")
     elif server["cpu"] >= 70:
-        print(f"[WARNING] ['name']: CPU ['cpu']%")
+        print(f"[WARNING] {server['name']}: CPU {server['cpu']}%")
     else:
-        print(f"[OK] ['name']: CPU ['cpu']%")
+        print(f"[OK] {server['name']}: CPU {server['cpu']}%")
